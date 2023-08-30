@@ -1,0 +1,31 @@
+/* History.css */
+
+.hcard {
+    width: 100%;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 992px) {
+    .hcard {
+      width: 100%;
+    }
+    
+    .hcard .col-md-4 {
+      text-align: center;
+    }
+    
+    .hcard .col-md-8 {
+      padding: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .hcard .col-md-4 {
+      text-align: center;
+    }
+    
+    .hcard .col-md-8 {
+      padding: 20px;
+    }
+  }
+  
